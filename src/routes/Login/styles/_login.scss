@@ -1,0 +1,26 @@
+@import '../../../styles/_vars';
+
+.main-login {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+    a {
+        background-color: $primary-blue !important;
+        height: 40px;
+        width: 120px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: $primary-grey;
+        text-decoration: none;
+        border-radius: 20px;
+        transition: .5s;
+
+        &:hover {
+            opacity: .7;
+        }
+    }
+}
